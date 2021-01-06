@@ -1,8 +1,11 @@
-﻿# HPPCommentMailer
+<div align=center>
+# HPPCommentMailer
 
-<div align=center><img src="./logo.png"></div>
+<img src="./logo.png">
 
 基于HerokuPaaS平台的HPPComment后端SMTP邮件发送平台
+
+</div>
 
 # 一键部署：
 
