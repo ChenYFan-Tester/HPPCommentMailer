@@ -24,7 +24,7 @@
     },
     "mail_port": {
       "description": "SMTP端口",
-	  "value": "465"
+	  "value": "25"
     },
     "site_url": {
       "description": "站点网址",
