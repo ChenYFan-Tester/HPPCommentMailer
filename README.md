@@ -1,6 +1,6 @@
 ﻿# HPPCommentMailer
 
-<div align=center><img src="https://cdn.jsdelivr.net/gh/HexoPlusPlus/HPPCommentMailer/logo.png"></div>
+<div align=center><img src="./logo.png"></div>
 
 基于HerokuPaaS平台的HPPComment后端SMTP邮件发送平台
 
