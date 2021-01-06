@@ -1,0 +1,38 @@
+{
+  "name": "POST邮件者",
+  "description": "利用Heroku实现POST发送邮件",
+  "image": "https://cdn.jsdelivr.net/gh/HexoPlusPlus/HPPCommentMailer/logo.png",
+  "repository": "https://github.com/HexoPlusPlus/HPPCommentMailer",
+  "env": {
+    "token": {
+      "description": "token验证"
+    },
+    "mail_server": {
+      "description": "SMTP服务器地址",
+	  "value": "smtp.exmail.qq.com"
+    },
+    "mail_username": {
+      "description": "SMTP登录用户名",
+	  "value": "chenyf@cyfan.top"
+    },
+    "mail_password": {
+      "description": "SMTP登录密码"
+    },
+    "mail_sender": {
+      "description": "邮箱发送用名,格式请用 发件人名字<发件人邮箱>，发件人邮箱若与SMTP登陆用户名不一致很容易被收件邮箱服务提供商丢入垃圾箱",
+	  "value": "ChenYFan<chenyf@cyfan.top>"
+    },
+    "mail_port": {
+      "description": "SMTP端口",
+	  "value": "465"
+    },
+    "site_url": {
+      "description": "站点网址",
+	  "value": "https://blog.cyfan.top"
+    },
+    "site_name": {
+      "description": "站点名字",
+	  "value": "ChenYFanの博客"
+    }
+  }
+}
