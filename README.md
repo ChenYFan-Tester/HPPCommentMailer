@@ -50,3 +50,9 @@ SMTP登录用户名
 ## `site_url`
 
 邮件中显示的站点地址
+
+# 请求格式
+
+```
+https://[Your Heroku App domain]/?password=[token]&parent_nick=[昵称]&parent_comment=[评论]&nick=[回复的昵称]&comment=[回复的评论]&post_url=[url]&target=[目标邮箱]
+```
