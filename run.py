@@ -27,7 +27,7 @@ def index():
     message = MIMEText(str(mailc), 'html', 'utf-8')
     message['From'] = Header(mail_sender, 'utf-8')
     message['To'] =  Header(request.args.get('target'), 'utf-8')
-    subject = 'New!'
+    subject = 'Hi!这是您的注册链接'
     message['Subject'] = Header(subject, 'utf-8')
     try:
         smtpObj = smtplib.SMTP() 
